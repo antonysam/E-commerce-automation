@@ -29,4 +29,4 @@
 5. Change the URL of the wordpress in the .java files
 8. Run the script
 ```
-
+![]()
