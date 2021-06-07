@@ -30,6 +30,6 @@
 8. Run the script
 ```
 ## How to setup data in the excel
-```
+
 ![](https://github.com/antonysam/Get_At_Door_Step/blob/master/Images/Data_setup.JPG)
-```
+
