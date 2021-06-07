@@ -323,8 +323,8 @@ public class Cart {
 		// Getting the order namespace based on order name
 
 		WebDriverWait wait = new WebDriverWait(d, 10);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//strong[contains(text(),'Sam Dany')]")));
-		WebElement ordername =d.findElement(By.xpath("//strong[contains(text(),'"+Fnametxt+" "+Lnametxt+"')]"));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//strong[contains(text(),'"+Fnametxt+" "+Lnametxt+"')][1]")));
+		WebElement ordername =d.findElement(By.xpath("//strong[contains(text(),'"+Fnametxt+" "+Lnametxt+"')][1]"));
 		String orderid = ordername.getText();
 
 		// Waits until the wait condition satisfy
